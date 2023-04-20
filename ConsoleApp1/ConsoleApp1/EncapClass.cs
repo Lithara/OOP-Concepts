@@ -24,5 +24,10 @@ namespace ConsoleApp1
         {
             name = nameFromUser;
         }
+
+        public string getName()
+        {
+            return name;
+        }
     }
 }
