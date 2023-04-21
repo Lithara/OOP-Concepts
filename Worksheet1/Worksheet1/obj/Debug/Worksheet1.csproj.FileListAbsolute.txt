@@ -1,0 +1,8 @@
+C:\OOP-Concepts\Worksheet1\Worksheet1\bin\Debug\Worksheet1.exe.config
+C:\OOP-Concepts\Worksheet1\Worksheet1\bin\Debug\Worksheet1.exe
+C:\OOP-Concepts\Worksheet1\Worksheet1\bin\Debug\Worksheet1.pdb
+C:\OOP-Concepts\Worksheet1\Worksheet1\obj\Debug\Worksheet1.csproj.AssemblyReference.cache
+C:\OOP-Concepts\Worksheet1\Worksheet1\obj\Debug\Worksheet1.csproj.SuggestedBindingRedirects.cache
+C:\OOP-Concepts\Worksheet1\Worksheet1\obj\Debug\Worksheet1.csproj.CoreCompileInputs.cache
+C:\OOP-Concepts\Worksheet1\Worksheet1\obj\Debug\Worksheet1.exe
+C:\OOP-Concepts\Worksheet1\Worksheet1\obj\Debug\Worksheet1.pdb
