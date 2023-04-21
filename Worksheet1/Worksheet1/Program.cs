@@ -12,10 +12,10 @@ namespace Worksheet1
         {
             EncapData objEncapData = new EncapData();
 
-            float radius;
+            double radius;
 
             Console.Write("Enter the radius value : ");
-            radius = float.Parse(Console.ReadLine());
+            radius = double.Parse(Console.ReadLine());
 
             objEncapData.setRadius(radius);
 
