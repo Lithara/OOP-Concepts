@@ -12,15 +12,22 @@ namespace Worksheet1
         {
             EncapData objEncapData = new EncapData();
 
-            double radius;
+            double a;
+            double b;
 
-            Console.Write("Enter the radius value : ");
-            radius = double.Parse(Console.ReadLine());
+            Console.Write("Enter the first value : ");
+            a = double.Parse(Console.ReadLine());
 
-            objEncapData.setRadius(radius);
+            Console.Write("Enter the second value : ");
+            b = double.Parse(Console.ReadLine());
 
-            Console.WriteLine("Area : " + objEncapData.getArea());
-            Console.WriteLine("Circumference : " + objEncapData.getCircumference());
+            objEncapData.setA(a);
+            objEncapData.setB(b);
+
+            Console.WriteLine("Summation : " + objEncapData.getSum());
+            Console.WriteLine("Substraction : " + objEncapData.getSub());
+            Console.WriteLine("Multiplication : " + objEncapData.getMul());
+            Console.WriteLine("Division : " + objEncapData.getDiv());
 
             Console.ReadLine();
         }

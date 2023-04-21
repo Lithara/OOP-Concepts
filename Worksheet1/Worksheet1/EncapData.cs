@@ -8,22 +8,37 @@ namespace Worksheet1
 {
     internal class EncapData
     {
-        private double radius;
-        private double pi = 3.14;
+        private double a;
+        private double b;
 
-        public void setRadius(double radiusFromUser)
+        public void setA(double aFromUser)
         {
-            radius = radiusFromUser;
+            a = aFromUser;
         }
 
-        public double getArea()
+        public void setB(double bFromUser)
         {
-            return pi * radius * radius;
+            b = bFromUser;
         }
 
-        public double getCircumference()
+        public double getSum()
         {
-            return 2 * pi * radius;
+            return a + b;
+        }
+
+        public double getSub()
+        {
+            return a - b;
+        }
+
+        public double getMul()
+        {
+            return a * b;
+        }
+
+        public double getDiv()
+        {
+            return a / b;
         }
     }
 }
