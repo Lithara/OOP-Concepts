@@ -10,8 +10,18 @@ namespace Worksheet1
     {
         static void Main(string[] args)
         {
-            Hello hello = new Hello();
-            Console.WriteLine("Your age is: " +hello.a);
+            EncapData objEncapData = new EncapData();
+
+            float radius;
+
+            Console.Write("Enter the radius value : ");
+            radius = float.Parse(Console.ReadLine());
+
+            objEncapData.setRadius(radius);
+
+            Console.WriteLine("Area : " + objEncapData.getArea());
+            Console.WriteLine("Circumference : " + objEncapData.getCircumference());
+
             Console.ReadLine();
         }
     }
