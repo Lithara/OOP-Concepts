@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp2
 {
-    internal class Scooter
+    internal class Scooter : Tyre
     {
+        public void ScooterType()
+        {
+            Console.WriteLine("Scooter color is red");
+            TyreType();
+            Console.WriteLine(NoOfTyres = 2);
+        }
     }
 }

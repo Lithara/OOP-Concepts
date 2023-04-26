@@ -10,6 +10,19 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
+            Scooter sc = new Scooter();
+            sc.ScooterType();
+
+            Car c = new Car();
+            c.CarType();
+
+            Scooter objScooter = new Scooter();
+            objScooter.ScooterType();
+
+            Car objCar = new Car();
+            objCar.CarType();
+
+            Console.ReadKey();
         }
     }
 }
