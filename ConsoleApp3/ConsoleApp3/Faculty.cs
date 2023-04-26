@@ -8,5 +8,6 @@ namespace ConsoleApp3
 {
     internal class Faculty
     {
+        public int student = 100;
     }
 }

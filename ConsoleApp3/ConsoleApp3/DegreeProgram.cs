@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp3
 {
-    internal class DegreeProgram
+    internal class DegreeProgram : Faculty
     {
+
     }
 }
