@@ -4,19 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp2
+namespace ConsoleApp3
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Scooter objScooter = new Scooter();
-            objScooter.ScooterType();
-
-            Car objCar = new Car();
-            objCar.CarType();
-
-            Console.ReadKey();
         }
     }
 }
