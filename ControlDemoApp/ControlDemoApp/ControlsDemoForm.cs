@@ -46,7 +46,7 @@ namespace ControlDemoApp
 
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            System.Diagnostics.Process.Start("Notepad.exe");
+            System.Diagnostics.Process.Start("MsWord.exe");
         }
     }
 }
