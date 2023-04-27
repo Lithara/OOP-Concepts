@@ -19,10 +19,21 @@ namespace ControlDemoApp
 
         private void ControlsDemoForm_Load(object sender, EventArgs e)
         {
-
+            pictureBox1.Load("C:\\Users\\LENOVO\\Pictures\\TMW_0409.JPG");
+            pictureBox1.SizeMode = PictureBoxSizeMode.AutoSize;
         }
 
         private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
 
         }
