@@ -19,7 +19,8 @@ namespace ControlDemoApp
 
         private void ControlsDemoForm_Load(object sender, EventArgs e)
         {
-            pictureBox1.Load("C:\\Users\\LENOVO\\Pictures\\TMW_0409.JPG");
+            pictureBox1.Image = new Bitmap("C:\\Users\\LENOVO\\Pictures\\TMW_0409.JPG");
+            //pictureBox1.Load("C:\\Users\\LENOVO\\Pictures\\TMW_0409.JPG");
             pictureBox1.SizeMode = PictureBoxSizeMode.AutoSize;
         }
 
@@ -36,6 +37,16 @@ namespace ControlDemoApp
         private void pictureBox1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://www.microsoft.com");
+        }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("Notepad.exe");
         }
     }
 }
