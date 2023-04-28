@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Diagnostics;
 
 namespace ControlDemoApp
 {
@@ -46,7 +47,10 @@ namespace ControlDemoApp
 
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            System.Diagnostics.Process.Start("MsWord.exe");
+            linkLabel1.LinkVisited = true;
+            Process p = Process.Start("Notepad.exe");
+            p.WaitForExit();
+            MessageBox.Show(p.ExitCode.ToString());
         }
     }
 }
