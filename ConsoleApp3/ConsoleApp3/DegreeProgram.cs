@@ -8,6 +8,9 @@ namespace ConsoleApp3
 {
     internal class DegreeProgram : Faculty
     {
-
+        public void Details()
+        {
+            Console.WriteLine(student);
+        }
     }
 }

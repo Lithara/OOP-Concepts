@@ -10,6 +10,10 @@ namespace ConsoleApp3
     {
         static void Main(string[] args)
         {
+            DegreeProgram objDegree = new DegreeProgram();
+            objDegree.Details();
+
+            Console.ReadLine();
         }
     }
 }
